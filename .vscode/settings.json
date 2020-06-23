@@ -1,0 +1,17 @@
+{
+  // "terminal.integrated.shell.windows": "D:\\@Git\\bin\\bash.exe",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.detectIndentation": false,
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google}"
+}

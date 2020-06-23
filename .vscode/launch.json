@@ -1,0 +1,47 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug (OpenOCD)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "executable": "${workspaceFolder}/boot.elf",
+      "cwd": "${workspaceFolder}",
+      "device": "STM32F205RE",
+      // "showDevDebugOutput": true,
+      "configFiles": [
+        "${workspaceFolder}/openocd.cfg"
+      ],
+      "debuggerArgs": [
+        "-d",
+        "${workspaceFolder}/lib/libopencm3/lib/usb",
+        "-d",
+        "${workspaceFolder}/lib/libopencm3/lib/stm32/common"
+      ]
+    },
+    {
+      "name": "Build_Debug (OpenOCD)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "executable": "${workspaceFolder}/boot.elf",
+      "cwd": "${workspaceFolder}",
+      "device": "STM32F205RE",
+      // "showDevDebugOutput": true,
+      "preLaunchTask": "debug",
+      "configFiles": [
+        "${workspaceFolder}/openocd.cfg"
+      ],
+      "debuggerArgs": [
+        "-d",
+        "${workspaceFolder}/lib/libopencm3/lib/usb",
+        "-d",
+        "${workspaceFolder}/lib/libopencm3/lib/stm32/common"
+      ]
+    }
+  ]
+}

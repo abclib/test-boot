@@ -1,0 +1,57 @@
+{
+  // 有关 tasks.json 格式的文档，请参见
+  // https://go.microsoft.com/fwlink/?LinkId=733558
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "debug",
+      "command": "./run.sh",
+      "args": [
+        "debug"
+      ],
+      "options": {},
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "build",
+      "command": "./run.sh",
+      "args": [
+        "build"
+      ],
+      "options": {},
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "rebuild",
+      "command": "./run.sh",
+      "args": [
+        "rebuild"
+      ],
+      "options": {},
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "clean",
+      "command": "./run.sh",
+      "args": [
+        "clean"
+      ],
+      "options": {},
+      "problemMatcher": [],
+    },
+    {
+      "type": "shell",
+      "label": "info",
+      "command": "./run.sh",
+      "args": [
+        "info"
+      ],
+      "options": {},
+      "problemMatcher": [],
+    }
+  ]
+}

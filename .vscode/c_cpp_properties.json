@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "clang-x64",
+      "compilerPath": "arm-none-eabi-gcc",
+      "defines": [
+        "STM32F2"
+      ],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include",
+        "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include/c++/8.3.1",
+        "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include/c++/8.3.1/arm-none-eabi",
+        "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include/c++/8.3.1/backward",
+        "D:/@ARM_TOOLS/8-2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include",
+        "D:/@ARM_TOOLS/8-2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include-fixed"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/**",
+          "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include",
+          "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include/c++/8.3.1",
+          "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include/c++/8.3.1/arm-none-eabi",
+          "D:/@ARM_TOOLS/8-2019-q3-update/arm-none-eabi/include/c++/8.3.1/backward",
+          "D:/@ARM_TOOLS/8-2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include",
+          "D:/@ARM_TOOLS/8-2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include-fixed"
+        ],
+        "limitSymbolsToIncludedHeaders": false,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}
